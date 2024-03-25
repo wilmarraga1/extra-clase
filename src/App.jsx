@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Login from "./component/layout/Login";
 import RegistroUsuario from './component/layout/RegistroUsuario';
+import Navbar from './component/layout/Navbar';
+
 
 function App() {
   /// Funciones y estados para el inicio de sesión
@@ -44,6 +46,7 @@ function App() {
 
   return (
     <>
+     
       <Login
         usuario={usuario}
         contrasena={contrasena}
@@ -62,6 +65,7 @@ function App() {
         onChangeEdad={handleChangeEdad}
         onSubmit={handleSubmitRegistro}
       />
+     <Navbar/>
     </>
   )
 }

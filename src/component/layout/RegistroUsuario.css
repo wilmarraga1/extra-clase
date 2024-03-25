@@ -1,3 +1,19 @@
+:root {
+  --bg: #222;
+  --clr: #fff;
+  --50:#ecfeff;
+  --100:#cffafe;
+  --200:#a5f3fc;
+  --300:#67e8f9;
+  --400:#22d3ee;
+  --500:#06b6d4;
+  --600:#0891b2;
+  --700:#0e7490;
+  --800:#155e75;
+  --900:#164e63;
+  --950:#083344;
+}
+
 .registro-container {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -33,7 +49,7 @@
   .registro-form input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color:var(--600);
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,5 +57,5 @@
   }
   
   .registro-form input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: var(--700);
   }
